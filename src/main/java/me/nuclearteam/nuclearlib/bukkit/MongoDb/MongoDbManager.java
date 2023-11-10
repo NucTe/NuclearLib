@@ -1,4 +1,4 @@
-package me.nuclearteam.nuclearlib.bukkit.Dbs.MongoDb;
+package me.nuclearteam.nuclearlib.bukkit.MongoDb;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;

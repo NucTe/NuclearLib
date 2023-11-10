@@ -1,4 +1,4 @@
-package me.nuclearteam.nuclearlib.bukkit.Dbs.MongoDb;
+package me.nuclearteam.nuclearlib.bukkit.MongoDb;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
