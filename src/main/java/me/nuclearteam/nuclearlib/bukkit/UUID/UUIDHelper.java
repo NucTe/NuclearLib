@@ -1,4 +1,4 @@
-package me.nuclearteam.nuclearlib.UUID;
+package me.nuclearteam.nuclearlib.bukkit.UUID;
 
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;

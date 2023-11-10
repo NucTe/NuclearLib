@@ -1,4 +1,4 @@
-package me.nuclearteam.nuclearlib.Parsers;
+package me.nuclearteam.nuclearlib.bukkit.Parsers;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

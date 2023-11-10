@@ -90,5 +90,10 @@
             <version>1.8.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>4.4.1</version> <!-- Use the latest version available -->
+        </dependency>
     </dependencies>
 </project>
