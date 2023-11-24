@@ -15,6 +15,7 @@ public class ConfigManager {
                    port: 25565
                    username: ""
                    password: ""
+                   database: ""
           **/
         this.plugin = plugin;
         this.plugin.saveDefaultConfig();

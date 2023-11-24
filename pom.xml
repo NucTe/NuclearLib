@@ -6,7 +6,7 @@
 
     <groupId>me.NuclearTeam</groupId>
     <artifactId>nuclearlib</artifactId>
-    <version>0.1.4</version>
+    <version>0.1.7</version>
     <packaging>jar</packaging>
 
     <name>nuclearlib</name>
