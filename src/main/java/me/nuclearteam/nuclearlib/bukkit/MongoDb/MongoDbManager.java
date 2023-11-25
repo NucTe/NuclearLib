@@ -31,6 +31,7 @@ public class MongoDbManager {
             FileConfiguration config = plugin.getConfig();
             mongoClient = MongoClients.create(connectionString);
             database = mongoClient.getDatabase(config.getString("mongodb.database"));
+            database.createCollection("collection");
             coll = database.getCollection(collection);
         } catch (Exception e) {
             // Handle connection errors (log or throw an exception)
@@ -52,6 +53,20 @@ public class MongoDbManager {
     public void setCollection(String newCollection) {
         this.collection = newCollection;
     }
+
+    public void createCollection(String Collection) {
+        database.createCollection(Collection);
+    }
+
+    public void removeCollection(String collectionName) {
+        try {
+            database.getCollection(collectionName).drop();
+            System.out.println("Collection '" + collectionName + "' removed successfully.");
+        } catch (Exception e) {
+            System.err.println("Error removing collection '" + collectionName + "': " + e.getMessage());
+        }
+    }
+
 
     public void insertDocument(Document document) {
         coll.insertOne(document);
